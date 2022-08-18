@@ -1,0 +1,145 @@
+:root {
+    --main-home-page-background-color: rgb(11, 9, 82);
+    --anchor-link-white-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main {
+    background-color: var(--main-home-page-background-color);
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.circle_white {
+    width: 400px;
+    height: 400px;
+    background-color: var(--anchor-link-white-color);
+    border-radius: 50%;
+    filter: blur(200px);
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+}
+
+
+/* Section One Code Start Heres */
+
+.section_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section_one h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 0.6s;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section_one h1 span {
+    color: rgb(253, 60, 85);
+}
+
+.section_one p {
+    font-size: 25px;
+    margin-block-start: 12px;
+    letter-spacing: 0.4px;
+    margin-bottom: 40px;
+}
+
+.section_one .facebook {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(289, 01, 164);
+    border-radius: 5px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.section_one .facebook:hover {
+    background-color: rgb(289, 01, 164);
+}
+
+.section_one .facebook:hover svg {
+    fill: white;
+}
+
+.section_one .linkedin {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(62, 82, 189);
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.section_one .linkedin:hover {
+    background-color: rgb(62, 82, 189);
+}
+
+.section_one .linkedin:hover svg {
+    fill: white;
+}
+
+.section_one .instragram {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(111, 73, 115);
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.section_one .instragram:hover {
+    background-color: rgb(111, 73, 115);
+}
+
+.section_one .instragram:hover svg {
+    fill: white;
+}
+
+/* Footer Main */
+.footer_main {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(7, 6, 64);
+    padding: 3rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.box_es {
+    max-width: 900px;
+}
+
+.box_es .box {
+    width: 210px;
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(209, 45, 88), rgb(210, 132, 67));
+    position: absolute;
+    top: -57px;
+    right: 200px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.box_es .box .center_box {
+    width: 190px;
+    height: 128px;
+    border: 1px dashed white;
+}
+
+.box_es .box .center_box h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    padding-left: 24px;
+}
